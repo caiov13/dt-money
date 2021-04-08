@@ -77,7 +77,7 @@ export function NewTransactionModal({ isOpen, onRequestClose }: NewTransactionMo
                     <img src={outcomeImg}alt="Saida"/>
                     <span>Saida</span>
                 </RadioBox>
-            </TransactionTypeContainer>
+                </TransactionTypeContainer>
 
             <input placeholder="Categoria" value={category} onChange={event => setCategory(event.target.value)}/>
 
