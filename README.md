@@ -6,9 +6,7 @@ Projeto feito durante o segundo capítulo da trilha de ReactJs.
 
 <div align="center">
 
-![Imagem do Projeto](https://github.com/caiov13/dt-money/blob/main/github/img1.PNG)
-
-![Imagem do Modal](https://github.com/caiov13/dt-money/blob/main/github/img2.PNG)
+![gif do Projeto](https://github.com/caiov13/dt-money/blob/main/github/dtmoney.gif)
 
 </div>
 
