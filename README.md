@@ -1,6 +1,6 @@
 # dtmoney
 
-Projeto feito durante o segundo capítulo da trilha de ReactJs.
+### Projeto feito durante o segundo capítulo da trilha de ReactJs do curso Ignite
 
 ## 📷 Veja o Projeto
 
