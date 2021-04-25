@@ -5,6 +5,10 @@ import { Header } from "./components/Header";
 import { GlobalStyle } from "./styles/global";
 import { NewTransactionModal } from './components/NewTransactionModal';
 import { TransactionsProvider } from './hooks/useTransactions';
+import { ThemeProvider, DefaultTheme } from 'styled-components'
+import light from './styles/themes/light'
+import dark from './styles/themes/dark'
+import usePersistedState from './utils/usePersistedState';
 
 Modal.setAppElement('#root')
 
@@ -20,9 +24,17 @@ export function App() {
       setIsNewTransactionModalOpen(false)
   }
 
+  const [theme, setTheme] = usePersistedState<DefaultTheme>('theme', light)
+
+  const toggleTheme = () => {
+    setTheme(theme.title === 'light' ? dark : light)
+  }
+
   return (
+    <ThemeProvider theme={theme}>
     <TransactionsProvider>
-      <Header onOpenNewTransactionModal={handleOpenNewTransactionModal} />
+      <Header onOpenNewTransactionModal={handleOpenNewTransactionModal}
+      toggleTheme={toggleTheme} />
 
       <Dashboard />
 
@@ -30,5 +42,6 @@ export function App() {
 
       <GlobalStyle />
     </TransactionsProvider>
+    </ThemeProvider>
   );
 }
