@@ -1,6 +1,4 @@
-# dtmoney
-
-### Projeto feito durante o segundo capítulo da trilha de ReactJs do curso Ignite
+<h1 align="center">dtmoney</h1>
 
 ## 📷 Veja o Projeto
 
