@@ -1,12 +1,13 @@
-# dtmoney
-
-### Projeto feito durante o segundo capítulo da trilha de ReactJs do curso Ignite
+<h1 align="center">dtmoney</h1>
 
 ## 📷 Veja o Projeto
 
 <div align="center">
 
-![gif do Projeto](https://github.com/caiov13/dt-money/blob/main/github/dtmoney.gif)
+![imagem do projeto](https://github.com/caiov13/dt-money/blob/main/github/1.PNG)
+![imagem do projeto](https://github.com/caiov13/dt-money/blob/main/github/2.PNG)
+![imagem do projeto](https://github.com/caiov13/dt-money/blob/main/github/3.PNG)
+![imagem do projeto](https://github.com/caiov13/dt-money/blob/main/github/4.PNG)
 
 </div>
 
