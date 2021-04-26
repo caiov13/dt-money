@@ -4,9 +4,10 @@ export default {
     colors: {
         background: '#222',
         text: '#FFF',
-        backgroundTable: '#222',
+        backgroundTable: '#333',
         backgroundInput: '#444',
         placeholderInput: '#FFF',
-        modalButtons: '#fff'
+        modalButtons: '#fff',
+        inputColor: '#fff'
     },
 };

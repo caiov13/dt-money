@@ -17,6 +17,8 @@ export const Container = styled.form `
         border: 1px solid #d7d7d7;
         background: ${props => props.theme.colors.backgroundInput};
 
+        color: ${props => props.theme.colors.inputColor};
+
         font-weight: 400;
         font-size: 1rem;
 
