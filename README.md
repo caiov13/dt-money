@@ -4,6 +4,7 @@
 
 <div align="center">
 
+![gif do projeto](https://github.com/caiov13/dt-money/blob/main/github/dtmoney.gif)
 ![imagem do projeto](https://github.com/caiov13/dt-money/blob/main/github/1.PNG)
 ![imagem do projeto](https://github.com/caiov13/dt-money/blob/main/github/2.PNG)
 ![imagem do projeto](https://github.com/caiov13/dt-money/blob/main/github/3.PNG)
