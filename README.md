@@ -24,7 +24,7 @@ $ git clone https://github.com/caiov13/dt-money.git
 $ cd dt-money
 
 # Instale as dependências
-$ yarn ou npm install
+$ yarn
 
 # Execute a aplicação em modo de desenvolvimento
 $ yarn start
